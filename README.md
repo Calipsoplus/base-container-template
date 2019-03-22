@@ -37,6 +37,8 @@ Using an RDP client, use the port which maps to 3389. From the example above, us
 
 ### VNC
 Using a VNC client, use the port which maps to 5901. From the example above, use 0.0.0.0:32900
+The vnc password is: vncpassword
 
-### NOVNC
-Using a NOVNC client, use the port which maps to 6901. From the example above, use 0.0.0.0:32899
+### NoVNC
+Using a NoVNC client, use the port which maps to 6901. From the example above, use 0.0.0.0:32899
+The vnc password is: vncpassword
