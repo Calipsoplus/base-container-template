@@ -65,6 +65,9 @@ sudo usermod --password $(openssl passwd -1 default) default
 ## Add default user to the group with sudo permissions (fixes RDP bug with user not being in group)
 sudo usermod -aG users default
 
+## Fix permissions
+#sudo chown -R default:$(id -g) /headless/.cache/
+
 ## Enable RDP
 sudo service xrdp start
 

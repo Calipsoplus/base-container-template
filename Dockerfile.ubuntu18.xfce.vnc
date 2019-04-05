@@ -3,7 +3,7 @@
 FROM ubuntu:18.04
 
 MAINTAINER Calipsoplus "aidan.campbell@esrf.fr"
-ENV REFRESHED_AT 2019-03-22
+ENV REFRESHED_AT 2019-04-05
 
 ## Connection ports for controlling the UI:
 # VNC port:5901
