@@ -5,7 +5,10 @@ This is a modified version of the container created by consol (https://hub.docke
 
 ## Usage
 The container can be run by both root and a user with a non-root UID and GID.
+### Credentials
 A default user has been created with the credentials default:default.
+Username: default
+Password: default
 The default user has passwordless sudo priviledges.
 
 To run this container using Python 3, the following script can be used:
@@ -26,7 +29,7 @@ client.containers.run(image=image, detach=True, publish_all_ports=True, volumes=
 Once the container has been created, a VNC/RDP client can be used to test or use the container.
 To see the open ports, use the command
 ```
-sudo docker ps - a
+sudo docker ps -a
 ```
 Example ouput:
 PORTS
