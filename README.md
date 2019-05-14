@@ -4,12 +4,12 @@ Ubuntu 18.04 container template with RDP and VNC enabled which can be extended f
 This is a modified version of the container created by consol (https://hub.docker.com/r/consol/ubuntu-xfce-vnc/). 
 
 ## Usage
-The container can be run by both root and a user with a non-root UID and GID.
+The container can be run by both root and a user with a non-root UID and GID.  
 ### Credentials
-A default user has been created with the credentials default:default.
-Username: default
-Password: default
-The default user has passwordless sudo priviledges.
+A default user has been created with the credentials default:default.  
+Username: default  
+Password: default  
+The default user has passwordless sudo priviledges.  
 
 To run this container using Python 3, the following script can be used:
 
